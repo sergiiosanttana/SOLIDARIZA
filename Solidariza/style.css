@@ -1,0 +1,127 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f4f4f4;
+}
+
+/* Barra de navegação (navbar) */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Barra Lateral (Sidebar) */
+.sidebar {
+    background-color: #333;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Conteúdo Principal */
+main {
+    margin-left: 220px; /* Espaço para a sidebar */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Login */
+
+.login{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
